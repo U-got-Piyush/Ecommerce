@@ -1,0 +1,43 @@
+.categories{
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.categories-name{
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+.categories-name > ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    
+
+}
+
+.categories-name > ul a{
+    text-decoration: none;
+    color:black;
+}
+
+.categories-name a:hover{
+    text-decoration: none;
+    color:#007BFF;
+}
+
+
+.categories-name li{
+    padding-top:8px;
+    width:85px;
+    font-weight:600;
+    font-size:15px;
+    margin-right: 19px;
+}
+

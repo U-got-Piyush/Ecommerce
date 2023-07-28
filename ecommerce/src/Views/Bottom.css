@@ -1,0 +1,35 @@
+
+
+.ul-list{
+    padding-top : 30px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.ul-list ul{
+    list-style: none;
+    color:white;
+    padding-right: 80px;
+    font-size: smaller;
+    
+}
+
+.ul-list ul img{
+    padding-right: 10px;
+}
+
+.bottom{
+    padding-bottom: 35px;
+}
+
+
+.ul-list li a{
+    color:white;
+    text-decoration: none;
+}
+
+.ul-list li a:hover{
+    color:white;
+    text-decoration: underline;
+}

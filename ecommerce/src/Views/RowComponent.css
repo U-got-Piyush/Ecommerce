@@ -1,0 +1,44 @@
+.row1 ,.row2 ,.row3 ,.row4 ,.row5 {
+    padding-bottom: 20px;
+}
+
+.row-elements{
+    width:100%;
+    display:flex ;
+    overflow-y:hidden;
+    overflow-x:scroll;
+}
+
+.row-elements::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+.card{
+    min-width:18rem;
+    height:22rem ;
+    padding-top:10px;
+}
+
+.inside-row{
+    width:100% ;
+    display:flex;
+}
+
+.card{
+    min-width:18rem ;
+    height:26rem;
+}
+
+.card-title{
+    display:flex ;
+    justify-content:center ;
+    padding-top:"40px";
+}
+
+.card-img-top{
+    transition: transform .2s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.05);
+}
